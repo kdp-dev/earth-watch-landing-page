@@ -8,7 +8,6 @@ include_in_header: false
 
 ## Privacy Policy
 
-The only data collected are server logs when downloading the [satellite config
-file](https://spaceeye-satellite-configs.s3.us-east-2.amazonaws.com/1.0.1/config.json).
-This config file contains metadata and links to the satellite images provided by
+The only data collected are server logs when downloading satellite configuration files.
+These config files contain metadata and links to the satellite images provided by
 NOAA and RAMMB.
