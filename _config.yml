@@ -5,7 +5,6 @@ page_title: EarthWatch App # Automatically populates with app name if not set an
 # ios_app_id: 1539851747 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link: https://apps.apple.com/app/spaceeye-satellite-wallpaper/id1539851747
-windows_store_link: https://www.microsoft.com/store/apps/9NF3WZ8TT6MN?cid=storebadge&ocid=badge
 # playstore_link: # Enter Google Play Store URL.
 # presskit_download_link:
 #   https://emilbaehr.com # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
@@ -13,27 +12,23 @@ windows_store_link: https://www.microsoft.com/store/apps/9NF3WZ8TT6MN?cid=storeb
 
 app_icon: /assets/earth_watch_icon.png
 app_name: EarthWatch
-app_price: Free
-app_description: Live satellite imagery for your Mac or Windows desktop background.
+app_price: $4.99
+app_description: Live satellite imagery for your Mac desktop background.
 
-other_installation_link: "#install-on-mac"
+other_installation_link: ""
 
 enable_smart_app_banner: false # Set to true to show a smart app banner at top of page on mobile devices.
 
 # Information About Yourself
-your_name: KYDronePilot
-your_link: https://github.com/KYDronePilot
+your_name: Michael Galliers
+your_link:
 # your_city: Copenhagen
 email_address: kydronepilotdev@gmail.com
 # facebook_username:
 # instagram_username: ebaehr
 # twitter_username: ebaehr
-github_username: KYDronePilot
+github_username:
 youtube_username:
-
-repo:
-  name: GitHub
-  link: https://github.com/KYDronePilot/SpaceEye
 
 # Feature List                            Edit, add or remove features to be presented.
 features:
@@ -54,10 +49,6 @@ features:
       the Earth.
     fontawesome_icon_name: fas fa-image
 
-  - title: Cross-platform
-    description: Can be installed on both macOS and Windows.
-    fontawesome_icon_name: fas fa-desktop
-
   # - title: Free and open source
   #   description: |
   #     EarthWatch is 100% open source and provided free of charge. Contributions
@@ -65,28 +56,6 @@ features:
   #   fontawesome_icon_name: fas fa-lock-open
 
 sections:
-  - title: Install on Mac
-    description: |
-      Download from the **Mac App Store**
-
-      <a href="https://apps.apple.com/app/spaceeye-satellite-wallpaper/id1539851747?mt=12&amp;itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 226px; height: 75px; margin-top: 8px;"><img src="/assets/mas_badge_black.svg" alt="Download on the Mac App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 226px; height: 75px;" width="226px" height="75px"></a>
-
-    # or download from the [latest GitHub release](https://github.com/KYDronePilot/SpaceEye/releases/latest).
-
-  - title: Install on Windows
-    description: |
-      **Recommended**: Download from the **Microsoft Store**
-
-      <a href="//www.microsoft.com/store/apps/9NF3WZ8TT6MN?cid=storebadge&ocid=badge"><img src="/assets/ms_badge_large.png" alt="Download from the Microsoft Store" style="margin-top: 14px; margin-bottom: 10px;" width="174px" height="64px"/></a>
-
-      or follow the [installation instructions](https://github.com/KYDronePilot/SpaceEye/wiki/Installing-on-Windows)
-      to download and run the installer from the latest GitHub release.
-
-      <br>
-
-      **Note**: You will have to dismiss warnings about the download being
-      potentially dangerous with this method.
-
   - title: Acknowledgements
     description: |
       Special thanks to <a
@@ -94,10 +63,6 @@ sections:
       the <a href="http://rammb.cira.colostate.edu/">Regional and Mesoscale
       Meteorology Branch (RAMMB)</a> of NOAA/NESDIS (located at Colorado State
       University) for hosting the satellite imagery.
-  - title: Issues or feature requests?
-    description: |
-      Create an issue on the <a
-      href="https://github.com/KYDronePilot/SpaceEye/issues">Issues page</a>.
 
 # Theme Settings
 topbar_color: "#000000"

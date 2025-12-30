@@ -38,18 +38,9 @@
               <p class="appDescription">{{ site.app_description }}</p>
             </div>
             <div class="downloadButtonsContainer">
-              <!-- {% if site.playstore_link %}
-              <a class="playStoreLink" href="{{site.playstore_link}}"
-                ><img class="playStore" src="assets/playstore.png"
-              /></a>
-              {% endif %} -->
               <a href="{{ site.appstore_link }}" class="download-link">
-                <img class="appStore" src="/assets/mas_badge_black.svg" alt="Download on the Mac App Store" />
+                <img class="appStore" src="/assets/mas_badge_black.svg" alt="Download on the App Store" />
               </a>
-              <a class="windowsStoreLink download-link" href="{{site.windows_store_link}}">
-                <img class="appStore" src="/assets/ms_badge_large.png" alt="Download from the Microsoft Store" />
-              </a>
-                <a target="_self" class="other-downloads-button download-link" href="{{ site.other_installation_link }}">All installation methods</a>
             </div>
           </div>
           {% include features.html %}
